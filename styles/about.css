@@ -1,0 +1,144 @@
+.nav_design {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5f2623e02729d25aa89e2752/1597162720501-WE588NEAEH7250H15ZW1/food-service-solutions.jpg?format=1500w");
+    height: 800px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-repeat: no-repeat;
+    /* padding-left: 60px; */
+  }
+  .main-menu ul li.has-dropdown>a {
+    position: relative;
+    padding-right: 15px;
+    font-family: inherit;
+  }
+  .main-menu ul li.has-dropdown>a {
+    position: relative;
+    padding-right: 15px;
+    
+  }
+  .main-menua {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    display:inline-block;
+  }
+  ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  ul li {display: inline-block;}
+  ul li:hover {background: transparent;}
+  ul li:hover ul {display: block;}
+  ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+  }
+  ul li ul li { 
+    background: white; 
+    display: block; 
+  }
+  ul li ul li a {display:block !important;} 
+  ul li ul li:hover {background: white;}
+  
+  .img1 {
+    padding-left: 80px;
+  }
+  .header__action button {
+    color: #444;
+    display: inline-block;
+    padding: 27px 0 30px;
+    position: relative;
+    background: transparent;
+    word-spacing: 20px;
+  }
+  .head_content {
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    line-height: 24px;
+    padding-top: 100px;
+    padding-left: 50px;
+    margin: 20px 20px;
+  }
+  .head_small_content {
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #0d0f0f;
+    line-height: 24px;
+    padding-left: 100px;
+  }
+  .head_btn {
+   text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    height: 50px;
+    line-height: 46px;
+    padding: 0 42px;
+    border: 2px solid black;
+    color: #070606;
+    background: transparent;
+    margin: 0px 50px;
+    font-size: 12px;
+    border: 1px solid black;
+    border-style: solid;
+    background-size: 200% 200%;
+    background-image: 
+    linear-gradient(to top, rgb(179, 117, 2) 50%, transparent 50%);
+     transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+  }
+  .head_btn:hover {
+    color: white;
+    border: none;
+    color: white;
+    color: white;
+    background-image: 
+    linear-gradient(to top,rgb(179, 117, 2) 51%, transparent 50%);
+    background-position: 0 100%;
+    transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+  }
+  .head_images{
+    /* display: inline-block; */
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;
+      /* padding: 20px 10px; */
+      background: white;
+      /* height: 153px; */
+      width: 100%;
+      margin-top: 200px;
+  }
+  .banner_img{
+       width: 100%;
+  }
+  .banner_content{
+     z-index: 1;
+    margin: -144px 25px;
+    font-family: Poppins,sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      color: #0f1111;
+      line-height: 24px;
+  }
+  .banner_btn {
+    font-size: 12px;
+    color: #444;
+    text-transform: capitalize;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 156px 0px;
+    z-index: 1;
+  }
+  .banner_btn:hover{
+    color: gray;
+  }
+
+  @tailwind base;
+@tailwind components;
+@tailwind utilities;
